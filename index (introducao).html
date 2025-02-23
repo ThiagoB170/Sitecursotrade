@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Trading</title>
+    <style>
+        :root {
+            --bg-color: #000000; /* Cor de fundo preta */
+            --text-color: white;  /* Cor do texto */
+            --content-bg: rgba(0, 0, 0, 0.7); /* Cor de fundo para o conteúdo */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color); /* Fundo preto */
+            color: var(--text-color);
+            transition: background-color 0.3s, color 0.3s;
+            height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 10; /* Coloca o conteúdo acima do fundo */
+            text-align: center;
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .welcome-text {
+            margin-bottom: 30px;
+            font-size: 2em;
+            font-weight: bold;
+            color: #32CD32;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Sombra para melhor visibilidade do texto */
+        }
+
+        video {
+            width: 80%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra ao redor do vídeo */
+        }
+
+        /* Botão com efeito RGB */
+        button {
+            width: 200px;
+            padding: 10px;
+            background: linear-gradient(45deg, red, yellow, green, blue, purple, cyan);
+            background-size: 400% 400%;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-position 1s ease-in-out;
+        }
+
+        button:hover {
+            background-position: 100% 100%;
+        }
+
+        .course-content {
+            text-align: left;
+            margin-bottom: 30px;
+            background-color: var(--content-bg); /* Fundo semitransparente para o conteúdo */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para o conteúdo */
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <div class="welcome-text">
+            Bem-vindo ao Curso de Trading!<br>
+            Descubra estratégias lucrativas com nossos 16 vídeos exclusivos!
+        </div>
+
+        <!-- Vídeo -->
+        <video controls>
+            <source src="0º%20INTRODUCÃO.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+
+        <!-- Conteúdo do curso -->
+        <div class="course-content">
+            <p>🚀 Neste curso, você aprenderá as principais estratégias e conceitos para dominar o trading!</p>
+            <p>📌 Conteúdo do curso:</p>
+            <ul>
+                <li>✅ Como abrir uma conta</li>
+                <li>✅ Como abrir uma ordem</li>
+                <li>✅ Candlestick - A Linguagem do Mercado</li>
+                <li>✅ O que é Price Action</li>
+                <li>✅ Suporte e Resistência na Prática</li>
+                <li>✅ Troca de Polaridade - Entenda as Inversões de Mercado</li>
+                <li>✅ LTA e LTB - Linhas de Tendência</li>
+                <li>✅ Fibonacci - O Segredo dos Movimentos do Mercado</li>
+                <li>✅ Como Fazer um Pré-Marketing Efetivo</li>
+                <li>✅ Médias Móveis - Como Utilizá-las a seu Favor</li>
+                <li>✅ Replay - Revendo e Aprendendo com seus Trades</li>
+            </ul>
+            <p>🔥 Domine Price Action, Suporte e Resistência, Troca de Polaridade, Linhas de Tendência e Fibonacci para se tornar um trader de sucesso!</p>
+        </div>
+
+        <!-- Botão para redirecionamento -->
+        <a href="https://pay.kirvano.com/67d162ca-73f8-44f1-8b44-daa2e537dd8a" target="_blank">
+            <button>Ir para o pagamento</button>
+        </a>
+    </div>
+
+</body>
+</html>
